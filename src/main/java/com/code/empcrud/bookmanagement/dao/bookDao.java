@@ -6,7 +6,7 @@ import com.code.empcrud.bookmanagement.utils.DbConnection;
 import java.util.List;
 
 public interface bookDao {
-    void insertBook(Book book, DbConnection connection) ;
+    boolean insertBook(Book book, DbConnection connection) ;
     List<Book> selectBooks(DbConnection connection);
     Book selectBookByID(long id, DbConnection connection);
 
