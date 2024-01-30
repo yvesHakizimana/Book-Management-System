@@ -6,12 +6,20 @@
     <title>Book Management System</title>
 </head>
 <body>
-<h1>Book management System</h1>
-    <c:if test="${book != null}">
-        <form action="update-book">
+    <h1>Book management System</h1>
+    <h2>
+        <c:if test="${book != null}">
+            Edit Book Information
         </c:if>
         <c:if test="${book == null}">
-        <form action = "register-book">
+            Add New Book
+        </c:if>
+    </h2>
+    <c:if test="${book != null}">
+    <form action="update-book" method="post">
+        </c:if>
+        <c:if test="${book == null}">
+        <form action = "register-book" method="post">
             </c:if>
                 BookName : <input
                     type="text"
