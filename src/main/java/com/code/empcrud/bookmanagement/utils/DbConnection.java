@@ -20,11 +20,10 @@ public class DbConnection {
                 throw  new RuntimeException("SQLException");
             } catch(ClassNotFoundException ex){
                 throw  new RuntimeException("ClassNotFoundException");
+            } finally {
+                if(conn != null) conn.close();
             }
-            finally {
-                assert conn != null;
-                conn.close();
-            }
+
             return conn;
 
     }
