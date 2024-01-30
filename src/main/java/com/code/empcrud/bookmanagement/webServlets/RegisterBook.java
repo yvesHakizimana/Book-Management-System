@@ -30,9 +30,11 @@ public class RegisterBook extends HttpServlet {
         int price = Integer.parseInt(req.getParameter("price"));
         Book newBook = new Book(bookName, bookEdition, price);
 
-        req.setAttribute("newBook",newBook);
-
-        bookDao.insertBook(newBook, connectionToDb);
-        PrintWriter out =  res.getWriter().append("The book registered successfully");
+        boolean result = bookDao.insertBook(newBook, connectionToDb);
+        PrintWriter out =  res.getWriter();
+        if(result)
+            res.sendRedirect("book-list");
+        else
+            out.println("Sorry our there is the error in the request");
     }
 }
