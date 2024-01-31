@@ -9,29 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38f396b2-9123-47c6-9f97-e0350f093710" name="Changes" comment="Edit Screen Book functionality">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="38f396b2-9123-47c6-9f97-e0350f093710" name="Changes" comment="Database connection utilities">
       <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/webServlets/UpdateBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/dao/BookDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/dao/BookDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/utils/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/utils/DbConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/webServlets/DeleteBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/webServlets/DeleteBook.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/Form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/book-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/book-list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,32 +60,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.DbConnection.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 9.0.85.executor": "Run",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/cyberknight/Desktop/jstl-1.2.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.508046",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DbConnection.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.85.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cyberknight/Desktop/jstl-1.2.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.508046&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.85" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
@@ -155,6 +136,7 @@
       <updated>1706619594126</updated>
       <workItem from="1706619595177" duration="5263000" />
       <workItem from="1706634236051" duration="10863000" />
+      <workItem from="1706677031272" duration="300000" />
     </task>
     <task id="LOCAL-00001" summary="Servlet logic of registering a book">
       <option name="closed" value="true" />
@@ -284,7 +266,39 @@
       <option name="project" value="LOCAL" />
       <updated>1706647073642</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Other files">
+      <option name="closed" value="true" />
+      <created>1706677239912</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677239912</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Book-list view">
+      <option name="closed" value="true" />
+      <created>1706677260757</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677260757</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Book Data Access Object Implementation">
+      <option name="closed" value="true" />
+      <created>1706677289688</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677289688</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Database connection utilities">
+      <option name="closed" value="true" />
+      <created>1706677318369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677318369</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +321,11 @@
     <MESSAGE value="Register book functionality" />
     <MESSAGE value="edit-book Java Servlet functionality" />
     <MESSAGE value="Edit Screen Book functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edit Screen Book functionality" />
+    <MESSAGE value="Other files" />
+    <MESSAGE value="Book-list view" />
+    <MESSAGE value="Book Data Access Object Implementation" />
+    <MESSAGE value="Database connection utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database connection utilities" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
