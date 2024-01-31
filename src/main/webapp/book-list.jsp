@@ -1,4 +1,7 @@
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" import="com.code.empcrud.bookmanagement.model.Book"  %>
+<%@ page import="java.util.List" %>
+<%@ page import="com.code.empcrud.bookmanagement.dao.BookDaoImpl" %>
+<%@ page import="com.code.empcrud.bookmanagement.utils.DbConnection" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <html>
 <head>
@@ -23,6 +26,7 @@
         <tbody>
         <jsp:useBean id="books" scope="request" type="java.util.List"/>
         <c:forEach items = "${books}" var="book">
+
             <tr>
                 <td><c:out value="${book.getId()}"></c:out></td>
                 <td><c:out value="${book.getBookName()}"></c:out></td>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="BookManagement:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="38f396b2-9123-47c6-9f97-e0350f093710" name="Changes" comment="Database connection utilities">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/webServlets/UpdateBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/Form.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2bfwli5eCfmNIIYm0BGxxKqPmkP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.DbConnection.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.85.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/cyberknight/Desktop/jstl-1.2.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.508046&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.85" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="BookManagement:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/BookManagement_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="54c1a799-c5f9-435f-a1b8-d77247b270b7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="BookManagement:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38f396b2-9123-47c6-9f97-e0350f093710" name="Changes" comment="" />
+      <created>1706619594126</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1706619594126</updated>
+      <workItem from="1706619595177" duration="5263000" />
+      <workItem from="1706634236051" duration="10863000" />
+      <workItem from="1706677031272" duration="300000" />
+    </task>
+    <task id="LOCAL-00001" summary="Servlet logic of registering a book">
+      <option name="closed" value="true" />
+      <created>1706634353883</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634353883</updated>
+    </task>
+    <task id="LOCAL-00002" summary="JSP form of capturing user information">
+      <option name="closed" value="true" />
+      <created>1706634373172</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634373172</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Connection util function for connecting to the database">
+      <option name="closed" value="true" />
+      <created>1706634393780</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634393780</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Book implementing the bookDao interface for data  access object">
+      <option name="closed" value="true" />
+      <created>1706634415806</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634415806</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Interface for book data access object">
+      <option name="closed" value="true" />
+      <created>1706634436902</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634436902</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Book Model">
+      <option name="closed" value="true" />
+      <created>1706634443699</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706634443699</updated>
+    </task>
+    <task id="LOCAL-00007" summary="DB connection re initialiazation">
+      <option name="closed" value="true" />
+      <created>1706637968415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706637968415</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modification of data access object">
+      <option name="closed" value="true" />
+      <created>1706639066428</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706639066428</updated>
+    </task>
+    <task id="LOCAL-00009" summary="edit-book functionalities.">
+      <option name="closed" value="true" />
+      <created>1706642195239</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706642195239</updated>
+    </task>
+    <task id="LOCAL-00010" summary="deleteBook functionality">
+      <option name="closed" value="true" />
+      <created>1706642237520</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706642237520</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Book list functionality">
+      <option name="closed" value="true" />
+      <created>1706643741380</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706643741380</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Book list functionality">
+      <option name="closed" value="true" />
+      <created>1706643756364</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1706643756364</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Delete book functionality">
+      <option name="closed" value="true" />
+      <created>1706646983858</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706646983858</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Register book functionality">
+      <option name="closed" value="true" />
+      <created>1706646998023</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1706646998023</updated>
+    </task>
+    <task id="LOCAL-00015" summary="edit-book Java Servlet functionality">
+      <option name="closed" value="true" />
+      <created>1706647042210</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706647042210</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Edit Screen Book functionality">
+      <option name="closed" value="true" />
+      <created>1706647073642</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1706647073642</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Other files">
+      <option name="closed" value="true" />
+      <created>1706677239912</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677239912</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Book-list view">
+      <option name="closed" value="true" />
+      <created>1706677260757</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677260757</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Book Data Access Object Implementation">
+      <option name="closed" value="true" />
+      <created>1706677289688</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677289688</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Database connection utilities">
+      <option name="closed" value="true" />
+      <created>1706677318369</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1706677318369</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Servlet logic of registering a book" />
+    <MESSAGE value="JSP form of capturing user information" />
+    <MESSAGE value="Connection util function for connecting to the database" />
+    <MESSAGE value="Book implementing the bookDao interface for data  access object" />
+    <MESSAGE value="Interface for book data access object" />
+    <MESSAGE value="Book Model" />
+    <MESSAGE value="project initialization" />
+    <MESSAGE value="DB connection re initialiazation" />
+    <MESSAGE value="Modification of data access object" />
+    <MESSAGE value="edit-book functionalities." />
+    <MESSAGE value="deleteBook functionality" />
+    <MESSAGE value="Book list functionality" />
+    <MESSAGE value="Delete book functionality" />
+    <MESSAGE value="Register book functionality" />
+    <MESSAGE value="edit-book Java Servlet functionality" />
+    <MESSAGE value="Edit Screen Book functionality" />
+    <MESSAGE value="Other files" />
+    <MESSAGE value="Book-list view" />
+    <MESSAGE value="Book Data Access Object Implementation" />
+    <MESSAGE value="Database connection utilities" />
+    <option name="LAST_COMMIT_MESSAGE" value="Database connection utilities" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/code/empcrud/bookmanagement/utils/DbConnection.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

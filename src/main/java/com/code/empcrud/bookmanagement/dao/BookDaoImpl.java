@@ -13,27 +13,36 @@ public class BookDaoImpl implements bookDao {
 
     DbConnection connection = new DbConnection();
     private  static String INSERT_BOOK_SQL = "INSERT INTO bookTable (name , edition, price) VALUES  " + " (?, ? , ?);";
-    private static  String SELECT_ALL_SQL = "SELECT name , edition, price FROM bookTable;";
+    private static  String SELECT_ALL_SQL = "SELECT id, name , edition, price FROM bookTable;";
     private static String SELECT_BOOK_BY_ID = "SELECT name , edition, price FROM bookTable where id = ?;";
     private static String UPDATE_BOOK_BY_ID = "UPDATE bookTable set name = ? , edition = ? , price = ? where id = ? ;";
     private static String DELETE_BY_ID = "DELETE FROM bookTable where id = ?;";
 
 
     @Override
-    public void insertBook(Book book, DbConnection connection)  {
+    public boolean insertBook(Book book, DbConnection connection)  {
+        int result = 0;
         try(PreparedStatement statement = connection.connectToDb().prepareStatement(INSERT_BOOK_SQL);){
             statement.setString(1, book.getBookName());
             statement.setString(2, book.getBookEdition());
             statement.setInt(3, book.getBookPrice());
-            int result = statement.executeUpdate();
-            if(result == 1) System.out.println("The record registered successfully");
-            else System.out.println("The record is not registered successfully");
+            System.out.println(statement);
+            result = statement.executeUpdate();
+            if(result == 1) {
+                System.out.println("The record registered successfully");
+                return true;
+            }
+            else {
+                System.out.println("The record is not registered successfully");
+                return false;
+            }
 
         } catch(SQLException ex){
             System.out.println("SQLState: " + ex.getErrorCode());
             System.out.println("ErrorCode: " + ex.getErrorCode());
             System.out.println("Message: " + ex.getMessage());
         }
+        return result > 0;
     }
 
     @Override
@@ -42,10 +51,11 @@ public class BookDaoImpl implements bookDao {
         try(PreparedStatement statement = connection.connectToDb().prepareStatement(SELECT_ALL_SQL)){
             ResultSet results = statement.executeQuery();
             while(results.next()){
+                long id = results.getLong(1);
                 String name = results.getString("name");
                 String edition = results.getString("edition");
                 int price = results.getInt("price");
-                books.add(new Book(name, edition, price));
+                books.add(new Book( id, name, edition, price));
             }
 
         } catch (SQLException ex){
