@@ -12,9 +12,12 @@
 </head>
 <body>
     <h1>Book management System</h1>
-    <form>
+    <form action="register-book" method="post">
         <p>Enter the book information: </p>
-
+        BookName : <input type="text" name="name"><br/>
+        BookEdition: <input type="text" name="edition"><br/>
+        BookPrice : <input type="number" name="price"> <br/>
+        <button type="submit">Submit</button>
     </form>
 </body>
 </html>
